@@ -6,7 +6,7 @@ Teenage Engineering ships deliberately closed, opinionated hardware. This list m
 
 **Scope:** real, working, TE-specific projects only. Curate, don't collect - see [Contributing](CONTRIBUTING.md).
 
-**Status tags:** an entry is actively maintained unless tagged `(dormant)` (works, but quiet), `(archived)` (read-only), or `(WIP)` (announced, no usable release yet). Half of any niche hardware scene is dormant; we say so rather than hide it.
+**Status tags:** an entry is actively maintained unless tagged `(dormant)` (works, but quiet) or `(archived)` (read-only). Everything listed is usable today - we don't list announced-but-unreleased projects.
 
 ## Contents
 
@@ -21,14 +21,11 @@ Teenage Engineering ships deliberately closed, opinionated hardware. This list m
 
 ## SP-1 / Stem Player
 
-*Small but genuinely active (2024-2026). TE never officially released the SP-1, so everything here is community reverse engineering: a closed forum thread (now archived), a half-dozen GitHub authors, and timknapen/SP-1-dev as the hub.*
-
 ### Custom firmware & OS
 
 - [sp1-midi](https://github.com/ericlewis/sp1-midi) - Zephyr BSP/template that is the foundation for building custom SP-1 synths, MIDI controllers, or firmware.
 - [sp1-tape-looper](https://github.com/chattock/sp1-tape-looper) - Four-track tape-machine looper firmware that ships a known-good recovery bin.
 - [marisko](https://github.com/softmodded/marisko) - Community custom firmware plus a ready-to-use Zephyr board definition for the SP-1.
-- [VF-1 Liminal Loop Player OS](https://op-forums.com/t/vf-1-liminal-loop-player-os-for-te-stem-player/31639) - Loop-player OS with per-track mute/solo and master FX, forum-announced but no public download yet. (WIP)
 
 ### Reverse engineering & docs
 
@@ -53,8 +50,6 @@ Teenage Engineering ships deliberately closed, opinionated hardware. This list m
 
 ## TP-7
 
-*Thin and locked-down: there is no firmware jailbreak or custom OS for the TP-7 - the OS is closed and updated only through TE's official channel. Real activity is limited to a few companion tools that talk to the device over its supported USB/BLE/MIDI and polyWAV interfaces, plus one teardown effort.*
-
 ### Reverse engineering & docs
 
 - [TP-7 guide: going deeper](https://www.spongefile.com/tp-7-guide-going-deeper) - Independent cheat-sheet decoding the TP-7's opaque UI, multitrack, loop and cue workflows.
@@ -75,8 +70,6 @@ Teenage Engineering ships deliberately closed, opinionated hardware. This list m
 
 ## OP-XY
 
-*The newest device (late 2024) and the liveliest of the OP-series scenes, but momentum is concentrated in preset/sample builders and one solid format reverse-engineering effort, not deep firmware hacking.*
-
 ### Reverse engineering & docs
 
 - [kmorrill/xy-format](https://gist.github.com/kmorrill/506d69e251f225c0fffb2596c17b9db3) - Community reverse-engineering notes on the OP-XY .xy binary project format, the anchor reference for the scene.
@@ -87,11 +80,9 @@ Teenage Engineering ships deliberately closed, opinionated hardware. This list m
 - [buba447/OPXY-Multisample-Tool](https://github.com/buba447/OPXY-Multisample-Tool) - Python scripts to record and pack WAV/AIFF samples into OP-XY multisample presets.
 - [buba447 OP-XY Drum & Multisample Patch Generator](https://buba447.github.io/opxy-drum-tool) - Hosted web generator that builds OP-XY drum kits and multisample patches from audio files.
 - [sixthlaw/opxy-multisampler-preset-builder](https://github.com/sixthlaw/opxy-multisampler-preset-builder) - Browser tool to drag-drop audio into OP-XY multisampler preset folders with automatic pitch detection.
-- [discepoli/op-xy-drum-preset-builder](https://github.com/discepoli/op-xy-drum-preset-builder) - Builds OP-XY drum sampler presets from a list of sample files. (WIP)
+- [discepoli/op-xy-drum-preset-builder](https://github.com/discepoli/op-xy-drum-preset-builder) - Builds OP-XY drum sampler presets from a list of sample files. (dormant)
 
 ## OP-Z
-
-*Mature but slow-moving: the deep reverse-engineering work (libopz, z-po-project) is mostly done, and recent activity is concentrated in videopaks and controller bindings rather than firmware.*
 
 ### Reverse engineering & docs
 
@@ -112,8 +103,6 @@ Teenage Engineering ships deliberately closed, opinionated hardware. This list m
 - [OP-Z-Cube](https://github.com/MateSteinforth/OP-Z-Cube) - Arduino-driven LED light object that reacts live to the OP-Z. (dormant)
 
 ## OP-1 / OP-1 field
-
-*Healthy but lopsided: the original OP-1 firmware-modding scene around op1hacks is real and well-trodden, while OP-1 field hacking is far thinner and the firmware archives are now reference-only. The sample/AIF tooling is plentiful but mostly old and unmaintained.*
 
 ### Custom firmware & OS
 
@@ -140,11 +129,9 @@ Teenage Engineering ships deliberately closed, opinionated hardware. This list m
 
 ## EP-133 K.O. II / EP-1320
 
-*The most active third-party Teenage Engineering scene right now: people have reverse-engineered the undocumented project filesystem and SysEx protocol, and tools are still shipping in 2026.*
-
 ### Reverse engineering & docs
 
-- [ep_133_sysex_thingy](https://github.com/garrettjwilke/ep_133_sysex_thingy) - Reverse-engineered SysEx command library and docs to manage K.O. II samples without the official tool. (WIP)
+- [ep_133_sysex_thingy](https://github.com/garrettjwilke/ep_133_sysex_thingy) - Reverse-engineered SysEx command library and docs to manage K.O. II samples without the official tool. (dormant)
 - [KOII-tips-and-tricks](https://github.com/neilbaldwin/KOII-tips-and-tricks) - Community-compiled guide of K.O. II tips and tricks distilled from Elektronauts forum threads.
 
 ### Tools & software
@@ -154,8 +141,6 @@ Teenage Engineering ships deliberately closed, opinionated hardware. This list m
 - [mcp-koii](https://github.com/benjaminr/mcp-koii) - MCP server controlling the K.O. II over MIDI so an LLM can play notes and patterns.
 
 ## Pocket Operators
-
-*A mature, mostly quiet scene: the calculator-sized POs are cheap and beloved, but hacking centers on one perennial gap - getting MIDI/sync in and out - so most work is small hardware add-ons plus a couple of web tools, several now dormant.*
 
 ### Custom firmware & OS
 
@@ -173,8 +158,6 @@ Teenage Engineering ships deliberately closed, opinionated hardware. This list m
 - [Pocket Integrator](https://hackaday.io/project/186778-pocket-integrator) - Add-on board with tap/shake play, USB MIDI clock, battery, and SWD for firmware hacking. (dormant)
 
 ## Cross-device tools
-
-*A small but genuinely useful cluster of tools that span two or more TE devices, mostly patch/sample converters and portable backup managers; a few are dormant single-maintainer repos.*
 
 ### Tools & software
 

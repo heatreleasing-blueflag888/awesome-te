@@ -11,6 +11,8 @@ An entry must be:
 - **TE-specific** - a project for a real Teenage Engineering device (SP-1, TP-7, OP-1/field, OP-Z,
   OP-XY, EP-133 K.O. II, EP-1320, Pocket Operators, TX-6, etc.).
 - **Real and reachable** - a public URL that works (repo, site, forum thread, hackaday project).
+- **Usable today** - you can actually get and run or read it right now. No announced-but-unreleased
+  projects, no "coming soon," no private repos.
 - **Useful for hacking it** - custom firmware, reverse engineering, tools/software, hardware mods,
   teardown/recovery, or a genuine community hub. Not marketing, not a shop listing.
 
@@ -41,7 +43,6 @@ When in doubt, leave it out. A short, trustworthy list beats a long one.
   they are getting:
   - `(archived)` - read-only / explicitly archived.
   - `(dormant)` - no meaningful activity in a long time, but still works.
-  - `(WIP)` - announced or early, no usable release yet.
 
   Active projects get **no** tag. Be honest - half of any niche hardware scene is dormant, and
   saying so is what keeps this list trustworthy.
