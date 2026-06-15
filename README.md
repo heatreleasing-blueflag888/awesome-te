@@ -169,6 +169,15 @@ Teenage Engineering ships deliberately closed, opinionated hardware. This list m
 - [OP-1Z-Sample-Manager](https://github.com/romangarms/OP-1Z-Sample-Manager) - Cross-platform desktop app for managing OP-Z and OP-1 samples. (dormant)
 - [mezmer](https://github.com/idroz/mezmer-app) - Live sound visualizer that works with both OP-Z and OP-XY. (dormant)
 
+## Credits & inspiration
+
+This directory exists because a few people did the hard reverse engineering and documented it carefully. Particular thanks to:
+
+- **[TimK (timknapen)](https://github.com/timknapen)** - the [SP-1-dev](https://github.com/timknapen/SP-1-dev) hardware reverse-engineering hub and wiki the Stem Player scene is built on.
+- **[dot-Justin](https://github.com/dot-Justin)** - the [lines-thread archive](https://github.com/dot-Justin/TE-SP-1-lines-thread-archive) and the cited [SP-1 knowledgebase](https://github.com/dot-Justin/SP-1-knowledgebase-skill) that set the bar for honest, sourced documentation this list aims to live up to.
+
+...and every contributor named throughout the linked projects.
+
 ## Contributing
 
 Found something missing or stale? See [CONTRIBUTING.md](CONTRIBUTING.md) - one-line entries, honest status, curate don't collect. Dead links are caught weekly by the [link-check workflow](.github/workflows/link-check.yml).
