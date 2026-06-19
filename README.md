@@ -40,6 +40,7 @@ Teenage Engineering ships deliberately closed, opinionated hardware. This list m
 - [spire](https://github.com/softmodded/spire) - Renode-based SP-1 emulator that tests firmware with zero brick risk before flashing.
 - [sp1-merge](https://github.com/softmodded/sp1-merge) - CLI tool to encode and merge Demucs stems into an SP-1-compatible WAV.
 - [Stem Player Studio](https://github.com/humperdink13/TE-StemPlayer) - Desktop app to manage the SP-1, including a host-side Python firmware flasher.
+- [SP-1 Utility](https://github.com/JT-Apps/SP-1-Utility) - Native Mac app that converts songs or four-stem folders into SP-1 WAVs and uploads them over USB-C, no Terminal or Python needed.
 - [solderless.engineering](https://solderless.engineering) - Web updater that loads custom stems and flashes firmware without opening the unit.
 - [yzy-stemplayer-reverse](https://github.com/leabs/yzy-stemplayer-reverse) - PyUSB scripts that fuzz the Stem Player's USB vendor requests, DFU entry, and memory.
 
